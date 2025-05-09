@@ -1,0 +1,6 @@
+CVE,DESCRIP
+1,¿se acude a los servicios de un contador para llevar las cuentas?
+2,¿sólo se utiliza un cuaderno o una libreta de apuntes personales para llevar las cuentas?
+3,"Está inscrito en algún esquema contribuyente del SAT: Régimen de incorporación fiscal (RIF); utiliza el sistema mis cuentas del SAT""; paga IVA y/o ISR o entrega facturas?"""
+4,No lleva ningún registro contable
+9,No sabe
