@@ -11,10 +11,24 @@
 !doc/
 !outputs/
 !rmarkdown/
+!data/
+
+# Ignora solo estos contenidos exactos
+data/conjunto_de_datos_enoe_2023_3t_csv
+data/conjunto_de_datos_enoe_2023_4t_csv
+
+data/raw/2023_3T/vivienda.csv
+data/raw/2023_3T/hogar.csv
+data/raw/2023_3T/sdmgf.csv
+data/raw/2023_3T/coe1.csv
+data/raw/2023_3T/coe2.csv
+
+data/raw/2023_3T/vivienda.csv
+data/raw/2023_3T/hogar.csv
+data/raw/2023_3T/sdmgf.csv
+data/raw/2023_3T/coe1.csv
+data/raw/2023_3T/coe2.csv
 
 R/.Renviron
-
-
-# Ignora solo estas subcarpetas dentro de doc/
 doc/Tabulaciones/
 doc/Informes/
