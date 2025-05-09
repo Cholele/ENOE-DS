@@ -1,18 +1,20 @@
-# Archivos de R
-.Rproj.user/
-.Rhistory
-.RData
-.Ruserdata
+# Ignora todo por defecto
+*
 
-# Datos que no deben subirse
-data/raw/
-data/processed/*.csv
+# Incluye archivos y carpetas específicas en la raíz
+!.gitignore
+!README.md
 
-# Archivos temporales o grandes
-*.bak
-*.mdf
-*.ldf
+# Incluye estas carpetas completas
+!R/
+!SQL/
+!doc/
+!outputs/
+!rmarkdown/
 
-# Seguridad
-.Renviron
-*.env
+R/.Renviron
+
+
+# Ignora solo estas subcarpetas dentro de doc/
+doc/Tabulaciones/
+doc/Informes/
