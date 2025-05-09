@@ -1,0 +1,10 @@
+CVE,DESCRIP  
+1,menor?
+2,igual a esta cantidad?
+3,más de 1 salario mínimo hasta 2?
+4,más de 2 salarios mínimos hasta 3?
+5,más de 3 salarios mínimos hasta 5?
+6,más de 5 salarios mínimos hasta 10?
+7,más de 10 salarios mínimos?
+8,No quiso dar información
+9,No sabe

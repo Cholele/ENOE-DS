@@ -1,0 +1,186 @@
+11000,Planes multidisciplinarios o generales del campo de ciencias de la educación y pedagogía
+11100,Diseño curricular y pedagogía
+11200,"Planeación, evaluación e investigación educativa"
+11300,Orientación e intervención educativa
+11400,Tecnología y comunicación educativa
+11500,Ciencias de la educación
+12000,Planes multidisciplinarios o generales del campo de formación docente
+12100,"Formación docente en educación básica, nivel preescolar"
+12200,"Formación docente en educación básica, nivel primaria"
+12300,"Formación docente en educación básica, nivel secundaria"
+12400,Formación docente en educación media superior
+12500,Formación docente en educación superior
+12600,Formación docente en la enseñanza de asignaturas específicas
+12601,Formación docente en cultura física
+12602,Formación docente para las artes
+12603,Formación docente en la enseñanza de idiomas
+12604,Formación docente en otras asignaturas específicas
+12700,Formación docente en otros servicios educativos
+12701,Formación docente en educación inicial
+12702,Formación docente en educación especial
+12703,Formación docente en educación para adultos
+21000,Planes multidisciplinarios o generales del campo de artes
+21100,Bellas artes
+21200,Artes escénicas
+21300,Música
+21400,Tecnologías audiovisuales para medios de comunicación
+21500,Diseño y comunicación gráfica y editorial
+21600,"Diseño industrial, de moda e interiores"
+21700,Artesanía tradicional y manualidades
+22000,Planes multidisciplinarios o generales del campo de humanidades
+22100,Teología
+22200,Adquisición de idiomas extranjeros
+22300,Literatura
+22400,Lingüística
+22500,Historia y arqueología
+22600,Filosofía y ética
+31000,Planes multidisciplinarios o generales del campo de ciencias sociales y estudios del comportamiento
+31100,Psicología
+31200,Sociología y antropología
+31300,Ciencias políticas
+31400,Economía
+31500,Trabajo y atención social
+32100,Comunicación y periodismo
+32200,Biblioteconomía y archivonomía
+33100,Derecho
+33200,Criminología y criminalística
+41000,Planes multidisciplinarios o generales del campo de negocios y contabilidad
+41100,Negocios y comercio
+41200,Mercadotecnia y publicidad
+41300,"Finanzas, banca y seguros"
+41400,Contabilidad y fiscalización
+42000,Planes multidisciplinarios o generales del campo de administración y gestión
+42100,Administración de empresas
+42200,Administración turística y de restaurantes
+42300,Administración pública
+42400,Administración en el ámbito de la ingeniería y la construcción
+42500,"Administración en los campos de la educación, salud, deporte, agronomía y las artes y humanidades"
+51000,Planes multidisciplinarios o generales del campo de ciencias biológicas y ambientales
+51100,Biología
+51200,Bioquímica y biofísica
+51300,Ecología y ciencias ambientales
+52000,"Planes multidisciplinarios o generales del campo de ciencias físicas, químicas y de la tierra"
+52100,Física y astronomía
+52200,Química
+52300,Ciencias de la tierra y de la atmósfera
+53100,Matemáticas
+53200,Estadística y actuaría
+61000,Planes multidisciplinarios o generales del campo de innovación en tecnologías de la información y la comunicación
+61100,Ciencias computacionales
+61200,Desarrollo de hardware
+61300,Desarrollo de software
+62000,Planes multidisciplinarios o generales del campo de implementación de las tecnologías de la información y la comunicación
+62100,Telecomunicaciones
+62200,Informática
+62300,Soporte y servicios de mantenimiento a las tecnologías de la información y comunicación
+71000,"Planes multidisciplinarios o generales del campo de ingeniería mecánica, eléctrica, electrónica, química y profesiones afines"
+71100,Mecánica y profesiones afines al trabajo metálico
+71200,Electricidad y generación de energía
+71300,"Electrónica, automatización y aplicaciones de la mecánica-eléctrica"
+71400,Ingeniería de procesos químicos
+71500,"Vehículos, barcos y aeronaves motorizadas"
+71600,Tecnología para la protección del medio ambiente
+71700,Ingeniería industrial
+72000,Planes multidisciplinarios o generales del campo de manufacturas y procesos
+72100,Industria de la alimentación
+72200,"Industria textil, del calzado y piel"
+72300,"Industrias de materiales diversos (cerámica, madera, plástico y vidrio)"
+72400,"Industria de la minería, extracción y metalurgia"
+73100,Arquitectura y urbanismo
+73200,Construcción e ingeniería civil
+81000,"Planes multidisciplinarios o generales del campo de agronomía, horticultura, silvicultura y pesca"
+81100,Producción y explotación agrícola y ganadera
+81200,Horticultura
+81300,Silvicultura
+81400,Pesca y acuacultura
+82100,Veterinaria
+91100,Medicina general
+91200,Medicina homeopática
+91300,Medicina de especialidad
+91301,Anestesiología
+91302,Angiología y cirugía vascular
+91303,Audiología y foniatría
+91304,Cardiología
+91305,Cirugía general
+91306,Cirugía cardiotorácica
+91307,Cirugía neurológica
+91308,Cirugía pediátrica
+91309,Cirugía plástica estética y reconstructiva
+91310,Dermatología
+91311,Endocrinología
+91312,Enfermedades del colon y recto
+91313,Gastroenterología
+91314,Genética médica
+91315,Geriatría
+91316,Ginecología y obstetricia
+91317,Hematología
+91318,Infectología
+91319,Inmunología clínica y alergología
+91320,Medicina aeroespacial
+91321,Medicina crítica
+91322,Medicina de rehabilitación
+91323,Medicina de urgencias
+91324,Medicina del deporte
+91325,Medicina del trabajo
+91326,Medicina familiar
+91327,Medicina interna
+91328,Medicina legal y forense
+91329,Medicina anatomopatológica
+91330,Medicina nuclear
+91331,Nefrología
+91332,Neumología
+91333,Neurofisiología clínica
+91334,Neurología
+91335,Oftalmología
+91336,Oncología y radioterapia
+91337,Ortopedia y traumatología
+91338,Otorrinolaringología y cirugía de cabeza y cuello
+91339,Patología clínica y medicina de laboratorio
+91340,Pediatría
+91341,Psiquiatría
+91342,Radiología e imagen
+91343,Reumatología
+91344,Urología
+91345,Otras especialidades médicas
+92100,Enfermería general y obstetricia
+92200,Enfermería de especialidad
+92201,Enfermería cardiovascular
+92202,Enfermería crítica y cuidados intensivos
+92203,Enfermería en geriatría y gerontología
+92204,Enfermería en salud pública
+92205,Enfermería oncológica
+92206,Enfermería perinatal y pediátrica
+92207,Enfermería quirúrgica
+92208,Otras especialidades de enfermería
+93100,Estomatología y odontología general
+93200,Estomatología y odontología de especialidad
+93201,Cirugía oral y maxilofacial
+93202,Endodoncia
+93203,Odontopediatría
+93204,Ortodoncia
+93205,Periodoncia
+93206,Prostodoncia
+93207,Otras especialidades de la estomatología y odontología
+94000,"Planes multidisciplinarios o generales del campo de terapia, rehabilitación y tratamientos alternativos"
+94100,Terapia y rehabilitación
+94200,Nutrición
+94300,Tratamientos alternativos y acupuntura
+95000,Planes multidisciplinarios o generales del campo de disciplinas auxiliares para la salud
+95100,Atención prehospitalaria y emergencias médicas
+95200,Biomedicina
+95300,Diagnóstico médico y tecnología del tratamiento
+95400,Farmacia
+95500,Audiometría y optometría
+95600,Salud pública
+101000,Planes multidisciplinarios o generales del campo de servicios personales y deportes
+101100,Deportes
+101200,Servicios funerarios
+101300,Servicios de cuidado personal y belleza
+101400,Servicios de apoyo y asistencia administrativa
+101500,Gastronomía y servicios de alimentos
+101600,Hospitalidad y turismo
+102100,Servicios de transporte
+103100,Seguridad para el trabajo
+104100,Seguridad pública
+104200,Servicios militares
+999999,Campo de formación académica no especificado

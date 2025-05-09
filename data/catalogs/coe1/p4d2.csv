@@ -1,0 +1,10 @@
+CVE,DESCRIP
+1,P4d1=1: Poder judicial o poder legislativo  o                                                P4d1=2: Institución educativa u hospital particular
+2,"P4d1=1: Empresa pública o paraestatal o                                                      P4d1=2  Una institución autónoma y pública de estudios de nivel medio superior o superior (UNAM, UAM, UACH, universidades autónomas estatales)"
+3,"P4d1=1: Escuela, hospital, clínica o institución asistencial administrada por el gobierno o  P4d1=2: Organismo autónomo (IFE, Institutos Estatales Electorales, Comisiones Nacionales o Estatales de Derechos Humanos)"
+4,"P4d1=1: Gobierno o dependencias federales  o                                                 P4d1=2: Iglesia, asociación profesional, cámara o sindicato"
+5,P4d1=1: Gobierno del estado (incluye Ciudad de México)  o                                    P4d1=2: Asociación civil no clasificada en las opciones anteriores
+6,P4d1=1: Gobierno del municipio (incluye la Ciudad de México)  o                              P4d1=2: Organismo internacional
+7,P4d1=1: Ninguna de las anteriores  o                                                         P4d1=2: Partido político
+8,P4d1=1: No aplica  o                                                                         P4d1=2: Ninguna de las anteriores
+9,P4d1=1: No sabe  o                                                                           P4d1=2: No sabe

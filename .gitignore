@@ -1,0 +1,18 @@
+# Archivos de R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Datos que no deben subirse
+data/raw/
+data/processed/*.csv
+
+# Archivos temporales o grandes
+*.bak
+*.mdf
+*.ldf
+
+# Seguridad
+.Renviron
+*.env
