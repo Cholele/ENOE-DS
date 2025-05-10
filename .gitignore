@@ -4,6 +4,7 @@
 # Permitir archivos clave en la raíz
 !.gitignore
 !README.md
+!*.Rproj
 
 # Permitir carpetas completas
 !R/
@@ -21,11 +22,20 @@
 !rmarkdown/**
 !data/**
 
-# Excluir archivos específicos o pesados
+# Ignorar archivos innecesarios o pesados
 data/conjunto_de_datos_enoe_2023_3t_csv/
 data/conjunto_de_datos_enoe_2023_4t_csv/
 data/raw/2023_3T/*.csv
 data/raw/2023_4T/*.csv
+
 doc/Tabulaciones/
 doc/Informes/
+
+# Seguridad
 R/.Renviron
+
+# Archivos temporales de RStudio
+.Rproj.user/
+.Rhistory
+.RData
+
