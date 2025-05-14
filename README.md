@@ -75,7 +75,7 @@ ENOE-DS/
 > ⚠️ Este proyecto trabaja **específicamente con los trimestres III y IV del año 2023**.  
 >
 > Si deseas replicar el análisis con distintos periodos, deberás obtener los datos desde el siguiente sitio oficial:
-> 👉 [Microdatos - ENOE](https://www.inegi.org.mx/programas/enoe/15ymas/#microdatos)
+> [Microdatos - ENOE](https://www.inegi.org.mx/programas/enoe/15ymas/#microdatos)
 >
 > Este repositorio sigue principios de **reproducibilidad** y **buenas prácticas** en el análisis de datos públicos.
 
@@ -95,9 +95,7 @@ Para configurarlas:
         SQL_UID=tu_usuario
         SQL_PWD=tu_contraseña
 💡 **Importante:**  
-Si editas el archivo `.Renviron` desde RStudio, los cambios **no se aplicarán de inmediato**.  
-Debes reiniciar la sesión de R para que las nuevas variables de entorno se carguen correctamente.  
-Puedes hacerlo manualmente cerrando y abriendo RStudio, o ejecutando el siguiente comando dentro de R:
+Si editas el archivo `.Renviron` desde RStudio, los cambios **no se aplicarán de inmediato**. Debes reiniciar la sesión de R para que las nuevas variables de entorno se carguen correctamente. Puedes hacerlo manualmente cerrando y abriendo RStudio, o ejecutando el siguiente comando dentro de R:
 >.rs.restartR()
 
 ---

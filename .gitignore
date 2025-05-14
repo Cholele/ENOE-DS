@@ -3,6 +3,7 @@
 
 # Permitir archivos clave en la raíz
 !.gitignore
+!.main.R
 !README.md
 !*.Rproj
 !.Renviron.example
@@ -28,6 +29,7 @@ data/conjunto_de_datos_enoe_2023_3t_csv/
 data/conjunto_de_datos_enoe_2023_4t_csv/
 data/raw/2023_3T/*.csv
 data/raw/2023_4T/*.csv
+data/raw/2023_4T/*.txt
 
 doc/Tabulaciones/
 doc/Informes/
