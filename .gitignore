@@ -3,7 +3,7 @@
 
 # Permitir archivos clave en la raíz
 !.gitignore
-!.main.R
+!main.R
 !README.md
 !*.Rproj
 !.Renviron.example
