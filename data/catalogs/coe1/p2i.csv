@@ -1,10 +1,10 @@
-CVE,DESCRIP ,
-1,¿Perdió o terminó su empleo?,
-2,¿Renunció a su empleo?,
-3,¿Cerró o dejó un negocio propio?,
-4,"Se pensionó, jubiló o se retiró de su negocio",
-5,Lo detuvieron, se accidentó o se enfermó por una larga temporada
-6,Regresó o lo deportaron de Estados Unidos,
-7,Un fenómeno natural o siniestro afectó a su fuente de trabajo,
-8,Ninguna de las anteriores,
-9,No sabe,
+CVE,DESCRIP 
+1,¿Perdió o terminó su empleo?
+2,¿Renunció a su empleo?
+3,¿Cerró o dejó un negocio propio?
+4,"Se pensionó, jubiló o se retiró de su negocio"
+5,"Lo detuvieron, se accidentó o se enfermó por una larga temporada"
+6,Regresó o lo deportaron de Estados Unidos
+7,Un fenómeno natural o siniestro afectó a su fuente de trabajo
+8,Ninguna de las anteriores
+9,No sabe

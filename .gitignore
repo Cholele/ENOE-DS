@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !*.Rproj
+!.Renviron.example
 
 # Permitir carpetas completas
 !R/
@@ -32,7 +33,7 @@ doc/Tabulaciones/
 doc/Informes/
 
 # Seguridad
-R/.Renviron
+.Renviron
 
 # Archivos temporales de RStudio
 .Rproj.user/

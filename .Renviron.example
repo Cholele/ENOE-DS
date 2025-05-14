@@ -1,0 +1,4 @@
+SQL_SERVER=localhost
+SQL_DATABASE=ENOE
+SQL_UID=user
+SQL_PWD=password
