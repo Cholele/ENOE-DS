@@ -1,10 +1,13 @@
-# IMPORTANTE: La instalación de paquetes solo debe realizarse una vez.
-# Sin embargo, la carga (activación) de los paquetes debe hacerse 
-# siempre al inicio del script donde se vayan a utilizar.
+# ====================================================
+# Función: load_packages
+# Descripción: Función para instalar y cargar paquetes dinamicamente
+# ====================================================
 
-# =======================================================
-#  Función para instalar y cargar paquetes dinamicamente
-# ========================================================
+
+# ============ 📌 NOTAS ============
+# La instalación de paquetes solo debe realizarse una vez.
+# Sin embargo, la carga siempre se debera hacer al inicio del script donde se vayan a utilizar.
+# ==================================
 
 cargar_librerias <- function(step = NULL) {
   
@@ -22,15 +25,20 @@ cargar_librerias <- function(step = NULL) {
   
   # Switch para los pasos específicos
   switch(as.character(step),
-         # Paquetes para conexión a BD (Script 1)
-         "1" = cargar_paquetes(c("odbc", "DBI", "readr")),
          
-         # Paquetes para la limpieza de datos (Script 2)
+         # -------- Para el proceso ----------
+         "1" = cargar_paquetes(c("odbc", "DBI", "readr")),
          "2" = cargar_paquetes(c("dplyr", "readr")),
          
-         "relations" = cargar_paquetes(c("dplyr")),
          
+         # -------- Para functions ----------
+         
+         "relations" = cargar_paquetes(c("dplyr")),
+         'map' = cargar_paquetes(c("dplyr")),
          "main" = cargar_paquetes(c("odbc", "DBI", "dplyr", "readr", "ggplot2")),
+         "indicators" = cargar_paquetes(c("rlang")),
+         "query_builder" = cargar_paquetes(c("rlang", "dplyr", "purrr", "jsonlite", "gt", "stringr", "dplyr", "tidyr")),
+         
          # Si el parametro es desconocido
          { if (!is.null(step)) message("Paso no reconocido. Solo se cargaron paquetes comunes.") }
   )

@@ -99,6 +99,12 @@ get_catalogs <- function() {
   return(catalogs)
 }
 
+# === Función que carga y devuelve una lista con los indidadores (.json) ===
+get_indicators <- function(){
+  indicators <- fromJSON(here::here("data/indicators.json"), simplifyVector = FALSE)
+  
+  return(indicators)
+}
 
 # === Ejemplos de Uso ===
 

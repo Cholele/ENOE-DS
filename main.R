@@ -22,11 +22,16 @@
 # === 📦 Cargar scripts de funciones y procesamiento ===
 source(here::here("R", "01.load_data.R"))
 source(here::here("R/functions", "relations.R"))
+source(here::here("R/functions", "mapping.R"))        #Ojo falta para mapeos donde son +2 columns
+source(here::here("R/functions", "query_builder.R"))
 
-# === 1️⃣ Cargar datos base: tablas, diccionarios y catálogos ===
-tbls        <- get_enoe_tables()
-dictionaries <- get_dictionaries()
-catalogs     <- get_catalogs()
+
+# ======== 1️⃣ Cargar datos base =========
+tbls        <- get_enoe_tables()        # <---- Tablas de BD SQL
+dictionaries <- get_dictionaries()      # <---- Diccionarios en (data/dictionaries)
+catalogs     <- get_catalogs()          # <---- Catalogs en (data/catalogs)
+indicators <- get_indicators()          # <---- Diccionarios en (data/)
+
 
 # === 2️⃣ Construir dataframe integrado a partir de las 5 tablas ===
 df <- create_enoe_df(
@@ -36,6 +41,22 @@ df <- create_enoe_df(
   tbls$coe1,
   tbls$coe2
 )
+
+
+df<- apply_indicator(df,"p15ym", 323)
+
+
+
+
+
+
+rm(list = setdiff(ls(), c("tbls", "catalogs", "dictionaries", "df", "indicators", "tbl_indicators_counts")))
+
+exportToCsv(df)
+exportToCsv <- function(data){
+  write.csv(data, here::here("outputs", "test.csv"), row.names = FALSE, fileEncoding = "UTF-8")
+}
+
 
 
 
