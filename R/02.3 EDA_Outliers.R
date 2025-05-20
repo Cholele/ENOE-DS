@@ -160,9 +160,7 @@ tabla_outliers_precariedad <- df_pea %>%
   )
 
 
-
-
-#------ Variable eddad
+#------ Variable edad
 # Winsorizar edad superior a 85.5 (si lo deseas puedes hacerlo exacto)
 #Reemplaza todo valor menor a 15 por 15
 #Reemplaza todo valor mayor a 85.5 por 85.5
