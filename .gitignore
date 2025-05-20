@@ -31,8 +31,7 @@ data/raw/2023_3T/*.csv
 data/raw/2023_4T/*.csv
 data/raw/2023_4T/*.txt
 
-doc/Tabulaciones/
-doc/Informes/
+doc/Tabulaciones/Extras
 
 # Seguridad
 .Renviron

@@ -1,0 +1,328 @@
+NOMBRE_CAMPO,NEMÓNICO
+Ciudad autorrepresentada,cd_a
+Control,con
+Distribución semanal,d_sem
+Edad,eda
+Entidad,ent
+Estrato de diseño trimestral,est_d_tri
+Estrato nacional y estatal,est
+Hogar mudado,h_mud
+Mes calendario,mes_cal
+Número de ageb del marco nacional,ageb
+Número de entrevista o visita,n_ent
+Número de hogar,n_hog
+Número de la localidad,loc
+Número de municipio según entidad,mun
+Número de renglón,n_ren
+Número progresivo de la vivienda,n_pro_viv
+Numero de entrevista o visita,n_ent
+Periodo,per
+Ponderador mensual,fac_men
+Ponderador trimestral,fac_tri
+Pregunta 13  ¿Hasta qué año aprobó... en la escuela?,cs_p13_2
+Pregunta 4 Campo exclusivo del sistema,p4_3
+Pregunta 5b Horas martes,p5d_hma
+Pregunta 9 Horas,p9_h8
+Pregunta 9 Minutos,p9_m8
+Renglón del informante,inf
+Resultado definitivo de la entrevista,r_def
+Tamaño de localidad mensual,t_loc_men
+Tamaño de localidad trimestral,t_loc_tri
+Tipo de entrevista,tipo
+Unidad primaria de muestreo,upm
+Urbano/Rural,ur
+Vivienda seleccionada,v_sel
+Año del resultado definitivo,d_anio
+Año del resultado preliminar,p_anio
+Años de escolaridad,anios_esc
+Clasificación de actividades económicas con base al sistema de clasificación industrial de América del Norte,scian
+Clasificación de empleos formales e informales de la primera actividad,emp_ppal
+Clasificación de la duración del desempleo,dur_des
+Clasificación de la población cuenta propia en actividades no calificadas,cp_anoc
+Clasificación de la población de 15 años y más por condición de actividad e inactividad,domestico
+Clasificación de la población de 15 años y más: Grupo edad 12 claves,eda12c
+Clasificación de la población de 15 años y más: Grupo edad 5 claves,eda5c
+Clasificación de la población de 15 años y más: Grupo edad 7 claves,eda7c
+Clasificación de la población de 5 años y más por nivel de instrucción,niv_ins
+Clasificación de la población desocupada por antecedentes,d_ant_lab
+Clasificación de la población desocupada por condición de desocupación,d_cexp_est
+"Clasificación de la población en ocupada plena, sin pago, ausente con nexo laboral y retorno, desocupada, iniciadora con búsqueda y ausente sin ingreso y nexo laboral",clase3
+Clasificación de la población en ocupada y desocupada; disponible y no disponible,clase2
+"Clasificación de la población en ocupados que trabajan menos de 35 hrs., más de 35 hrs, y más de 48 hrs.",tcco
+Clasificación de la población en PEA y PNEA,clase1
+Clasificación de la población femenina de 15 años y más por número de hijos,hij5c
+Clasificación de la población no económicamente activa no disponible por condición de inacividad,c_inac5c
+Clasificación de la población ocuapda por prestaciones de salud,medica5c
+Clasificación de la población ocuapda según sector de actividades-Totales,rama_est1
+Clasificación de la población ocupada buscador de otro trabajo,busqueda
+Clasificación de la población ocupada por búsqueda de otro empleo,buscar5c
+Clasificación de la población ocupada por condición de acceso a instituciones de salud,seg_soc
+Clasificación de la población ocupada por condición de ocupación,c_ocu11c
+Clasificación de la población ocupada por duración de la jornada laboral,dur_est
+Clasificación de la población ocupada por la duración de la jornada,dur9c
+Clasificación de la población ocupada por número de trabajadores,emple7c
+Clasificación de la población ocupada por nivel de ingreso,ing7c
+Clasificación de la población ocupada por posición en la ocupación,pos_ocu
+Clasificación de la población ocupada por sector de actividad económica,rama
+Clasificación de la población ocupada por tamaño de la unidad económica-Subtotales,ambito2
+Clasificación de la población ocupada por tipo de unidad,tue3
+Clasificación de la población ocupada por tipo de unidad económica-Subtotales,tue2
+Clasificación de la población ocupada por tipo de unidad económica-Totales,tue1
+Clasificación de la población ocupada según el tamaño de la unidad económica-Totales,ambito1
+Clasificación de la población por apoyos económicos,p14apoyos
+Clasificación de la población según sector de actividades-Subtotales,rama_est2
+Clasificación de la población subocupada,s_clasifi
+Clasificación de la población subordinada y remunerada por disponibilidad de contrato escrito,tip_con
+Clasificación de la población total en grupos de edad,eda19c
+Columnas de la matriz Hussmanns del trabajo principal,mh_col
+Composición de la población no económicamente activa,pnea_est
+Día del resultado definitivo,d_dia
+Día del resultado preliminar,p_dia
+Entrevista observada,e_obs
+Filas agregadas de la matriz Hussmanns del trabajo principal,mh_fil2
+Horas trabajadas en la semana,hrsocup
+Ingreso mensual,ingocup
+Instituciones de atención médica,imssissste
+Mes del resultado definitivo,d_mes
+Mes del resultado preliminar,p_mes
+Población no económicamente activa disponible,dispo
+Población no económicamente activa no disponible,nodispo
+Población ocupada que trabaja más de 48 horas y gana menos de 1 salario mínimo,ma48me1sm
+Población subocupada,sub_o
+Población subordinada y remunerada,remune2c
+Población subordinada y remunerada por prestaciones laborales (sin considerar el acceso a las instituciones de salud),pre_asa
+Pregunta 1  ¿Cuántas personas viven normalmente en esta vivienda contando a los niños chiquitos y a los ancianos?,p1
+Pregunta 1 Ahora le voy a preguntar por la situación laboral de ...¿La semana pasada trabajó por lo menos una hora?,p1
+Pregunta 10 Año de nacimiento,nac_anio
+Pregunta 10 Día de nacimiento,nac_dia
+Pregunta 10 Mes de nacimiento,nac_mes
+Pregunta 11 Clave de lugar de nacimiento,l_nac_c
+Pregunta 12  ¿Sabe leer y escribir un recado...?,cs_p12
+Pregunta 14 Clave de la carrera,cs_p14_c
+Pregunta 15  ¿Qué estudios le pidieron a ... para ingresar a esta carrera?,cs_p15
+Pregunta 16  ¿...Terminó los estudios o materias de esta carrera?,cs_p16
+Pregunta 17  ¿... Asiste actualmente a la escuela?,cs_p17
+Pregunta 18 En total cuántas hijas e hijos que nacieron vivos ha tenido,n_hij
+Pregunta 19 Estado conyugal,e_con
+Pregunta 1a Opción 1: realizar una actividad que le proporcionó ingresos?,p1a1
+Pregunta 1a Opción 2: ayudar en las tierras o en el negocio de un familiar o de otra persona?,p1a2
+Pregunta 1a Opción 3: no trabajó la semana pasada,p1a3
+"Pregunta 1b Aunque ya me dijo que ... no trabajó la semana pasada,  ¿tiene algún empleo, negocio o realiza alguna actividad por su cuenta?",p1b
+Pregunta 1c  ¿Cuúl es la razón principal por la que ... no trabajó la semana pasada?,p1c
+Pregunta 1d Durante este periodo de ausencia  ¿... recibe sueldo o ganancias?,p1d
+Pregunta 1e  ¿En cuúnto tiempo regresarú ... a este mismo trabajo?,p1e
+Pregunta 2  ¿Todas estas personas comparten un mismo gasto para comer?,p2
+Pregunta 2 Opción 1: buscar trabajo en otro país o hacer preparativos para cruzar la frontera?,p2_1
+Pregunta 2 Opción 2: buscar trabajo aquí en el país,p2_2
+Pregunta 2 Opción 3: poner un negocio o realizar una actividad por su cuenta sin poder todavía comenzar?,p2_3
+Pregunta 2 Opción 4: Entonces  ¿no ha tratado de buscar trabajo?,p2_4
+Pregunta 2 Opción 9: No sabe,p2_9
+Pregunta 20a Clave de entidad o país de residencia hace un año,cs_p20a_c
+Pregunta 20a Entidad o país de residencia hace un año,cs_p20a_1
+Pregunta 20b Clave de municipio de residencia hace un año,cs_p20b_c
+Pregunta 20b Municipio de residencia hace un año,cs_p20b_1
+Pregunta 20c Causa de la migración,cs_p20c_1
+Pregunta 21 Especificación de otro motivo,cs_p21_des
+Pregunta 21 Motivos de la ausencia,cs_ad_mot
+Pregunta 22  ¿A qué estado de la república o país se fue ...?,cs_ad_des
+Pregunta 23  ¿Cuál es el motivo principal por el que llegó ...?,cs_nr_mot
+Pregunta 23 Especificación del otro motivo,cs_p23_des
+Pregunta 24  ¿De qué estado de la República Mexicana o país vino ...?,cs_nr_ori
+Pregunta 2a Año en que comenzó,p2a_anio
+Pregunta 2a Día en que comenzó,p2a_dia
+Pregunta 2a Mes en que comenzó,p2a_mes
+Pregunta 2a Semana en que comenzó,p2a_sem
+Pregunta 2b  ¿En qué fecha fue la última vez que ... buscó trabajo (o terminó con los preparativos para poner el negocio)?,p2b
+Pregunta 2b Año de la última vez,p2b_anio
+Pregunta 2b Día de la última vez,p2b_dia
+Pregunta 2b Mes de la última vez,p2b_mes
+Pregunta 2b Semana de la última vez,p2b_sem
+Pregunta 2c  ¿... estaba dispuesto a trabajar la semana pasada?,p2c
+Pregunta 2d Opción 1: acudió directamente al lugar de trabajo,p2d1
+Pregunta 2d Opción 10: solo consultó el anuncio clasificado,p2d10
+Pregunta 2d Opción 11: otra actividad,p2d11
+Pregunta 2d Opción 2: hizo trúmites en una agencia o bolsa de trabajo privada,p2d2
+Pregunta 2d Opción 3: hizo trúmites en un servicio público de colocación,p2d3
+Pregunta 2d Opción 4: hizo trúmites en algún programa de empleo temporal del gobierno,p2d4
+Pregunta 2d Opción 5: hizo trúmites o realizó alguna actividad para iniciar un negocio por su cuenta,p2d5
+Pregunta 2d Opción 6: puso o contestó un anuncio en internet,p2d6
+"Pregunta 2d Opción 7: puso o contestó un anuncio en algún lugar público o en medios de comunicación (periódico, radio)",p2d7
+Pregunta 2d Opción 8: acudió a un sindicato o gremio,p2d8
+Pregunta 2d Opción 9: pidió a conocidos o familiares que lo recomendaran o le avisaran de algún trabajo,p2d9
+Pregunta 2d Opción 99: no sabe,p2d99
+Pregunta 2e  ¿... es,p2e
+"Pregunta 2f Actualmente,  ¿... tiene necesidad de trabajar?",p2f
+"Pregunta 2g  ¿Hay alguna otra razón, ademús de ser (menciona lo que contestaron en 2e), por la que ... no esté buscando trabajo?",p2g1
+Pregunta 2g Opciones de respuesta cuando P2G1=1,p2g2
+Pregunta 2h Opción 1: un pago o salario?,p2h1
+Pregunta 2h Opción 2: Por su cuenta?,p2h2
+Pregunta 2h Opción 3: ayudando en el negocio o actividad económica de alguna persona?,p2h3
+Pregunta 2h Opción 4: nunca ha trabajado,p2h4
+Pregunta 2h Opción 9: no sabe,p2h9
+"Pregunta 2i La última vez que ... se quedó sin trabajo,  ¿cuúl era la situación?",p2i
+Pregunta 2j En esa ocasión,p2j
+Pregunta 2k  ¿En qué año  ... terminó (o suspendió) ese trabajo u oficio?,p2k_anio
+Pregunta 2k (Anota el mes si se trata del año en curso o del año pasado),p2k_mes
+Pregunta 2k (Clasifica si se trata del año en curso o del año pasado),p2k
+Pregunta 3  ¿Cuántos hogares o grupos de personas tienen gastos separados para comer contando el de usted?,p3
+"Pregunta 3 Si ...tiene mús de un trabajo, hablemos del principal.  ¿Cuúles son las tareas o funciones principales que ...desempeña en su trabajo?",p3
+Pregunta 3a  ¿En su trabajo ... tiene un jefe(a) o superior?,p3a
+"Pregunta 3b Entonces,  ¿... se dedica a un negocio o actividad por su cuenta?",p3b
+"Pregunta 3c Opción 1: a una sola empresa, negocio o intermediario?",p3c1
+"Pregunta 3c Opción 2: a varios negocios, empresas o intermediarios?",p3c2
+Pregunta 3c Opción 3: directamente al público?,p3c3
+Pregunta 3c Opción 4: es autoconsumo agropecuario,p3c4
+Pregunta 3c Opción 9: no sabe,p3c9
+Pregunta 3d  ¿... tiene empleados o le ayudan personas en su negocio o actividad?,p3d
+Pregunta 3e  ¿... tiene,p3e
+Pregunta 3f  ¿Cuúntos puestos o establecimientos (o en su caso vehículos) forman este negocio o empresa?,p3f1
+"Pregunta 3f  ¿Mús de uno?,  ¿Cuúntos?",p3f2
+Pregunta 3g Número de socios,p3g2_2
+Pregunta 3g Número de trabajadores con pago,p3g1_2
+Pregunta 3g Número de trabajadores sin pago,p3g3_2
+Pregunta 3g Número de trabajadores sin tipo,p3g4_2
+Pregunta 3g Opción 1: trabajadores que reciben un pago?,p3g1_1
+Pregunta 3g Opción 2: socios?,p3g2_1
+Pregunta 3g Opción 3: trabajadores sin pago?,p3g3_1
+Pregunta 3g Opción 4: no sabe qué tipo de trabajadores son,p3g4_1
+Pregunta 3g Opción 9: no sabe,p3g9
+Pregunta 3g total Sumatoria de número de trabajadores,p3g_tot
+Pregunta 3h  ¿En este trabajo ...,p3h
+Pregunta 3i  ¿En este empleo ... cuenta con un contrato por escrito?,p3i
+Pregunta 3j  ¿El contrato de  ... es,p3j1
+Pregunta 3j Desglose de contrato temporal,p3j2
+Pregunta 3k Opción 1: aguinaldo?,p3k1
+Pregunta 3k Opción 2: vacaciones con goce de sueldo?,p3k2
+Pregunta 3k Opción 3: reparto de utilidades?,p3k3
+Pregunta 3k Opción 4: ninguna de las anteriores,p3k4
+Pregunta 3k Opción 5: no le dan nada,p3k5
+Pregunta 3k Opción 9: no sabe,p3k9
+"Pregunta 3l  ¿Aproximadamente cuúntas personas, incluyendo al dueño, laboran donde trabaja ...?",p3l
+Pregunta 4  ¿Cuántos?,p4_2
+"Pregunta 4  ¿Cuúl es el nombre de la empresa, negocio o institución para la que ... trabaja o ayuda?",p4
+Pregunta 4  ¿En este hogar se contrata a trabajadores domésticos ...,p4_1
+"Pregunta 4a  ¿A qué se dedica esta empresa, negocio o institución?",p4a
+Pregunta 4a Campo exclusivo del sistema,p4a_1
+Pregunta 4b SÓLO PARA EL ENTREVISTADOR,p4b
+"Pregunta 4c Entonces,  ¿estamos hablando de que este negocio es  ... ",p4c
+Pregunta 4d Campo exclusivo del sistema,p4d3
+"Pregunta 4d Entonces,  ¿  ... trabaja para",p4d1
+Pregunta 4d Opciones de respuesta cuando,p4d2
+Pregunta 4e  ¿El negocio o actividad,p4e
+"Pregunta 4f Entonces,  ¿en dónde se realizan las actividades de este negocio?",p4f
+Pregunta 4g En este negocio o actividad,p4g
+Pregunta 4h  ¿Normalmente en qué lugar trabaja ... ?,p4h
+Pregunta 4i Campo exclusivo del sistema,p4i_1
+Pregunta 4i La empresa a la que pertenece ...  ¿tiene oficinas o establecimientos,p4i
+"Pregunta 5 La semana pasada,  ¿... tuvo poco trabajo que hacer?",p5
+Pregunta 5a  ¿Le preocupa a ... esta situación?,p5a
+Pregunta 5b Horas domingo,p5b_hdo
+Pregunta 5b Horas jueves,p5b_hju
+Pregunta 5b Horas lunes,p5b_hlu
+Pregunta 5b Horas miércoles,p5b_hmi
+Pregunta 5b Horas súbado,p5b_hsa
+Pregunta 5b Horas viernes,p5b_hvi
+Pregunta 5b Minutos domingo,p5b_mdo
+Pregunta 5b Minutos jueves,p5b_mju
+Pregunta 5b Minutos lunes,p5b_mlu
+Pregunta 5b Minutos martes,p5b_mma
+Pregunta 5b Minutos miércoles,p5b_mmi
+Pregunta 5b Minutos súbado,p5b_msa
+Pregunta 5b Minutos viernes,p5b_mvi
+Pregunta 5b Total de días (campo adicional contenido en la base de datos),p5b_tdia
+Pregunta 5b Total de horas,p5b_thrs
+Pregunta 5c  ¿Ese es el número de horas que habitualmente trabaja ...?,p5c
+Pregunta 5d Horas domingo,p5d_hdo
+Pregunta 5d Horas jueves,p5d_hju
+Pregunta 5d Horas lunes,p5d_hlu
+Pregunta 5d Horas miércoles,p5d_hmi
+Pregunta 5d Horas súbado,p5d_hsa
+Pregunta 5d Horas viernes,p5d_hvi
+Pregunta 5d Horas y minutos o no tiene horario regular de trabajo,p5d1
+Pregunta 5d Minutos domingo,p5d_mdo
+Pregunta 5d Minutos jueves,p5d_mju
+Pregunta 5d Minutos lunes,p5d_mlu
+Pregunta 5d Minutos martes,p5d_mma
+Pregunta 5d Minutos miércoles,p5d_mmi
+Pregunta 5d Minutos súbado,p5d_msa
+Pregunta 5d Minutos viernes,p5d_mvi
+Pregunta 5d Total de días (campo adicional contenido en la base de datos),p5d_tdia
+Pregunta 5d Total de horas,p5d_thrs
+Pregunta 5e  ¿Cuúl es el motivo principal por el que la semana pasada ... no trabajó las horas habituales?,p5e
+Pregunta 5f Opción 1: enero,p5f1
+Pregunta 5f Opción 10: octubre,p5f10
+Pregunta 5f Opción 11: noviembre,p5f11
+Pregunta 5f Opción 12: diciembre,p5f12
+Pregunta 5f Opción 13: Varían los meses en que trabaja,p5f13
+Pregunta 5f Opción 14: Trabaja todos los meses del año,p5f14
+Pregunta 5f Opción 15: Tiene menos de un año en este trabajo,p5f15
+Pregunta 5f Opción 2: febrero,p5f2
+Pregunta 5f Opción 3: marzo,p5f3
+Pregunta 5f Opción 4: abril,p5f4
+Pregunta 5f Opción 5: mayo,p5f5
+Pregunta 5f Opción 6: junio,p5f6
+Pregunta 5f Opción 7: julio,p5f7
+Pregunta 5f Opción 8: agosto,p5f8
+Pregunta 5f Opción 9: septiembre,p5f9
+Pregunta 5f Opción 99: no sabe,p5f99
+Pregunta 6 Condición de residencia,c_res
+Pregunta 6 Opción 1: por comisión?,p6_1
+Pregunta 6 Opción 10: ninguna de las anteriores,p6_10
+"Pregunta 6 Opción 2: a destajo (por pieza), servicio u obra realizada?",p6_2
+Pregunta 6 Opción 3: por honorarios?,p6_3
+Pregunta 6 Opción 4: con propinas?,p6_4
+Pregunta 6 Opción 5: con bonos de compensación o de productividad?,p6_5
+Pregunta 6 Opción 6: con vales o productos comercializables?,p6_6
+"Pregunta 6 Opción 7: Solo recibe sueldo, salario o jornal",p6_7
+Pregunta 6 Opción 8: Solo lo que le deja su negocio,p6_8
+Pregunta 6 Opción 9: no le pagan ni recibe ingresos (incluye autoconsumo agropecuario),p6_9
+Pregunta 6 Opción 99: no sabe,p6_99
+"Pregunta 6a Opción 1: a sueldo, salario o jornal?",p6a1
+Pregunta 6a Opción 2: por ganancias o de lo que deja su negocio?,p6a2
+Pregunta 6a Opción 3: no le pagan ni recibe ingresos (incluye autoconsumo agropecuario),p6a3
+Pregunta 6a Opción 4: ninguna de las anteriores,p6a4
+Pregunta 6a Opción 9: no sabe,p6a9
+Pregunta 6b  ¿Cada cuándo obtiene ... sus ingresos o le pagan?,p6b1
+Pregunta 6b Cantidad en  pesos,p6b2
+"Pregunta 6c Actualmente el salario mínimo mensual es de $ ,  ¿la cantidad que ... Obtiene al mes por su trabajo es",p6c
+Pregunta 6d Por parte de este trabajo  ¿... tiene acceso a atención médica en,p6d
+"Pregunta 6e  ¿En qué municipio (alcaldía) está el negocio, empresa o lugar donde trabajó ... la semana pasada?",p6e
+"Pregunta 6e Clave del municipio (alcaldía) donde está el negocio, empresa o lugar donde trabajó ... la semana pasada",p6e_c
+Pregunta 6f  ¿En qué estado o país?,p6f
+Pregunta 6f Clave del estado o país,p6f_c
+"Pregunta 6g  ¿El lugar donde trabajó ... la semana pasada, es el mismo donde está el negocio, la empresa o el lugar para el que trabaja?",p6g
+"Pregunta 6h  ¿En qué municipio (alcaldía) está el negocio, empresa o el lugar para la que trabaja ...?",p6h
+"Pregunta 6h Clave del municipio (alcaldía) donde está el negocio, empresa o el lugar para la que trabaja ...",p6h_c
+Pregunta 6i  ¿En qué estado o país?,p6i
+Pregunta 6i Clave del estado o país,p6i_c
+"Pregunta 7 Además del trabajo principal del que ya hablamos,  ¿... tiene o realiza otra actividad como",p7
+Pregunta 7 Clave de parentesco,par_c
+Pregunta 7a  ¿Cuáles son las tareas o funciones principales que    desempeña en su segundo trabajo?,p7a
+"Pregunta 7b  ¿Cuál es el nombre de la empresa, negocio o institución para la que ... realiza este otro trabajo?",p7b
+"Pregunta 7c  ¿A qué se dedica esta empresa, negocio o institución donde trabaja o ayuda ... en su segundo trabajo?",p7c
+Pregunta 8 Opción 1: buscar otro trabajo en otro país o hacer preparativos para cruzar la frontera?,p8_1
+Pregunta 8 Opción 2: buscar otro trabajo aquí en el país?,p8_2
+"Pregunta 8 Opción 3: poner un negocio o realizar una actividad por su cuenta, sin poder todavía comenzar?",p8_3
+"Pregunta 8 Opción 4: entonces,  ¿no ha tratado de buscar otro trabajo?",p8_4
+Pregunta 8 Opción 9: no sabe,p8_9
+Pregunta 8 Sexo,sex
+Pregunta 8a Lo que ... intenta  ¿es,p8a
+Pregunta 9 Edad,eda
+Pregunta 9 Opción 1: estudiar o tomar cursos de capacitación?,p9_1
+"Pregunta 9 Opción 2: cuidar o atender sin pago, de manera exclusiva a niñ±os, ancianos, enfermos o discapacitados?",p9_2
+"Pregunta 9 Opción 3: realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad?",p9_3
+"Pregunta 9 Opción 4: llevar a algún miembro del hogar a la escuela, cita médica u otra actividad?",p9_4
+Pregunta 9 Opción 5: construir o ampliar su vivienda?,p9_5
+"Pregunta 9 Opción 6: reparar o dar mantenimiento a su vivienda, muebles, aparatos electrodomésticos o vehículos?",p9_6
+Pregunta 9 Opción 7: realizar los quehaceres de su hogar?,p9_7
+Pregunta 9 Opción 8: prestar servicios gratuitos a su comunidad?,p9_8
+Promedio de ingreso por hora trabajada,ing_x_hrs
+Resultado preliminar de la entrevista,r_pre
+Sí buscó trabajo,tpg_p8a
+Salario mínimo mensual según la zona salarial,salario
+Sectores institucionales del trabajo principal,sec_ins
+Tipo de levantamiento de la entrevista,tipolev
+Tipo de unidad económica del trabajo principal,tue_ppal
+Total de trabajos,t_tra
+Trabajadores transfronterizos del trabajo principal,trans_ppal
+Zona salarial,zona

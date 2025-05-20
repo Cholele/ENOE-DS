@@ -1,0 +1,38 @@
+﻿Tipo de variable,Tipo de dato,Descripción,Nemónico
+Sociodemográficas,int(discreta),Edad,eda
+Sociodemográficas,string,Grupo de edad,eda5c
+Sociodemográficas,string,Sexo,sex
+Sociodemográficas,string,Estado conyugal,e_con
+Laborales,string,Sector de actividad económica,rama_est1
+Laborales,string,Sub-sector de actividad económica,rama_est2
+Laborales,int(discreta),Ingreso mensual,ingocup
+Laborales,int(discreta),Horas trabajadas en la semana,hrsocup
+Laborales,string,Prestaciones laborales (sin considerar el acceso a las instituciones de salud),pre_asa
+Laborales,string,Condición de actividad económica,clase1
+Laborales,string,Situación laboral,clase2
+Laborales,string,Nnumero de salarios minimos,ing7c
+Laborales,string,Duración de la jornada laboral,dur_est
+Laborales,string,Acceso a instituciones de salud,seg_soc
+Laborales,string,Ambito de unidad economica,ambito1
+Laborales,string,Ambito de sub-unidad economica,ambito2
+Laborales,string,Condición de Informalidad,emp_ppal
+Laborales,string,Disponibilidad de contrato escrito,tip_con
+Laborales,int (ordinal),Nivel de instrucción,niv_ins
+Laborales,string,Población subocupada,sub_o
+Laborales,string,Busqueda de trabajo adicional,busqueda
+Laborales,string,Posición en la ocupación,pos_ocu
+Laborales,string,Antecedente laboral,d_ant_lab
+Laborales,string,Condición de desocupación,d_cexp_est
+Geograficas,string,Entidad federativa,ent
+Geograficas,string,Ciudad autorepresentada,cd_a
+Geograficas,string,Ambito de area,t_loc_tri
+Pk,string,Tipo de entrevista,tipo
+Pk,string,Mes,mes_cal
+Pk,string,Número de hogar,n_hog
+Pk,string,Hogar mudado,h_mud
+Pk,string,Número de renglon,n_ren
+Ponderador,int(discreta),Ponderador trimestral,fac_tri
+Pk,int (nominal),Vivienda seleccionada,v_sel
+Laborales,int (nominal),Resultado definitivo de la entrevista,r_def
+Sociodemográficas,int (nominal),Condición de residencia,c_res
+Sociodemográficas,int (nominal),Periodo,per

@@ -1,0 +1,233 @@
+﻿No.,clave (path),description,expression
+1,pt,1. Población total,r_def == 0 & (c_res == 1 | c_res == 3)
+2,p15ym,2. Población de 15 años y más,"r_def == 0 & c_res %in% c(1, 3) & eda >= 15 & eda <= 98"
+3,p15ym.pea,2.1. Población económicamente activa (PEA),clase1==1
+4,p15ym.pea.oc,Ocupados,clase1==1 & clase2==1
+5,p15ym.pea.des,Desocupados,clase1==1 & clase2==2
+6,p15ym.pnea,2.2. Población no económicamente activa (PNEA),clase1==2
+7,p15ym.pnea.disp,Disponibles,clase1==2 & clase2==3
+8,p15ym.pnea.ndisp,No disponibles,clase1==2 & clase2==4
+9,po,3. Población Ocupada,clase2==1
+10,po.posoc,3.1. Posición en la ocupación,clase2==1
+11,po.posoc.tsr,3.1.1. Trabajadores subordinados y remunerados,clase2==1 & pos_ocu==1
+12,po.posoc.tsr.asal,Asalariados,clase2==1 & remune2c==1
+13,po.posoc.tsr.pns,Con percepciones no salariales,clase2==1 & remune2c==2
+14,po.posoc.emp,3.1.2. Empleadores,clase2==1 & pos_ocu==2
+15,po.posoc.tcp,3.1.3. Trabajadores por cuenta propia,clase2==1 & pos_ocu==3
+16,po.posoc.tnr,3.1.4. Trabajadores no remunerados,clase2==1 & pos_ocu==4
+17,po.posoc.ne,3.1.5. No especificado,clase2==1 & pos_ocu==5
+18,po.sact,3.2. Sector de actividad económica,clase2==1
+19,po.sact.pri,3.2.1. Primario,clase2==1 & rama_est1==1
+20,po.sact.pri.agric,"Agricultura, ganadería, silvicultura, caza y pesca",clase2==1 & rama_est2==1
+21,po.sact.sec,3.2.2. Secundario,clase2==1 & rama_est1==2
+22,po.sact.sec.iee,Industria extractiva y de la electricidad,clase2==1 & rama_est2==2
+23,po.sact.sec.im,Industria manufacturera,clase2==1 & rama_est2==3
+24,po.sact.sec.const,Construcción,clase2==1 & rama_est2==4
+25,po.sact.ter,3.2.3. Terciario,clase2==1 & rama_est1==3
+26,po.sact.ter.com,Comercio,clase2==1 & rama_est2==5
+27,po.sact.ter.rsa,Restaurantes y servicios de alojamiento,clase2==1 & rama_est2==6
+28,po.sact.ter.tcca,"Transportes, comunicaciones, correo y almacenamiento",clase2==1 & rama_est2==7
+29,po.sact.ter.sfc,"Servicios profesionales, financieros y corporativos",clase2==1 & rama_est2==8
+30,po.sact.ter.ssoc,Servicios sociales,clase2==1 & rama_est2==9
+31,po.sact.ter.sdiv,Servicios diversos,clase2==1 & rama_est2==10
+32,po.sact.ter.gob,Gobierno y organismos internacionales,clase2==1 & rama_est2==11
+33,po.sact.ne,3.2.4. No especificado,clase2==1 & rama_est1==4
+34,po.niving,3.3. Nivel de ingresos,clase2==1
+35,po.niving.h1sm,Hasta un salario mínimo,clase2==1 & ing7c==1
+36,po.niving.m1-2sm,Más de 1 hasta 2 salarios mínimos,clase2==1 & ing7c==2
+37,po.niving.m2-3sm,Más de 2 hasta 3 salarios mínimos,clase2==1 & ing7c==3
+38,po.niving.m3-5sm,Más de 3 hasta 5 salarios mínimos,clase2==1 & ing7c==4
+39,po.niving.m5sm,Más de 5 salarios mínimos,clase2==1 & ing7c==5
+40,po.niving.nri,No recibe ingresos,clase2==1 & ing7c==6
+41,po.niving.ne,No especificado,clase2==1 & ing7c==7
+42,po.durjt,3.4. Duración de la jornada de trabajo,clase2==1
+43,po.durjt.aus,Ausentes temporales con vínculo laboral,clase2==1 & dur_est==1
+44,po.durjt.<15h,Menos de 15 horas,clase2==1 & dur_est==2
+45,po.durjt.15-34h,De 15 a 34 horas,clase2==1 & dur_est==3
+46,po.durjt.35-48h,De 35 a 48 horas,clase2==1 & dur_est==4
+47,po.durjt.48h,Más de 48 horas,clase2==1 & dur_est==5
+48,po.durjt.ne,No especificado,clase2==1 & dur_est==6
+49,po.acc_salud,3.5. Condición de acceso a las instituciones de salud,clase2==1
+50,po.acc_salud.cacc,Con acceso,clase2==1 & seg_soc==1
+51,po.acc_salud.sacc,Sin acceso,clase2==1 & seg_soc==2
+52,po.acc_salud.ne,No especificado,clase2==1 & seg_soc==3
+53,po.amb_ue,3.6. Ámbito y tamaño de la unidad económica,clase2==1
+54,po.amb_ue.agro,3.6.1. Ámbito agropecuario,clase2==1 & ambito1==1
+55,po.amb_ue.noagro,3.6.2. Ámbito no agropecuario,clase2==1 & ambito1==2
+56,po.amb_ue.noagro.micro,3.6.2.1. Micronegocios,clase2==1 & (ambito2==2 | ambito2==3)
+57,po.amb_ue.noagro.micro.sin_est,Sin establecimiento,clase2==1 & ambito2==2
+58,po.amb_ue.noagro.micro.con_est,Con establecimiento,clase2==1 & ambito2==3
+59,po.amb_ue.noagro.peq_est,3.6.2.2. Pequeños establecimientos,clase2==1 & ambito2==4
+60,po.amb_ue.noagro.med_est,3.6.2.3. Medianos establecimientos,clase2==1 & ambito2==5
+61,po.amb_ue.noagro.gde_est,3.6.2.4. Grandes establecimientos,clase2==1 & ambito2==6
+62,po.amb_ue.noagro.gob,3.6.2.5. Gobierno,clase2==1 & ambito2==7
+63,po.amb_ue.noagro.otros,3.6.2.6. Otros,clase2==1 & ambito2==8
+64,po.amb_ue.ne,3.6.3. No especificado,clase2==1 & ambito1==3
+65,po.dist_ue,3.7. Distribución por tipo de unidad económica,clase2==1
+66,po.dist_ue.emp,3.7.1. Empresas y negocios,clase2==1 & tue1==1
+67,po.dist_ue.emp.soc,Empresas constituidas en sociedad y corporaciones,clase2==1 & tue2==1
+68,po.dist_ue.emp.nosoc,Negocios no constituidos en sociedad,clase2==1 & tue2==2
+69,po.dist_ue.inst,3.7.2. Instituciones,clase2==1 & tue1==2
+70,po.dist_ue.inst.priv,3.7.2.1. Privadas,clase2==1 & tue2==3
+71,po.dist_ue.inst.pub,3.7.2.2. Públicas,clase2==1 & tue2==4
+72,po.dist_ue.inst.pub.adm_gob,Administradas por los gobiernos,clase2==1 & tue3==1
+73,po.dist_ue.inst.pub.nadm_gob,No administradas por los gobiernos,clase2==1 & tue3==2
+74,po.dist_ue.hog,3.7.3. Sector de los hogares,clase2==1 & tue1==3
+75,po.dist_ue.hog.si,Sector informal,clase2==1 & tue2==5
+76,po.dist_ue.hog.tdr,Trabajo doméstico remunerado,clase2==1 & tue2==6
+77,po.dist_ue.hog.ags,Agricultura de subsistencia,clase2==1 & tue2==7
+78,po.dist_ue.ne,3.7.4. Situaciones de carácter especial y no especificadas,clase2==1 & tue1==4
+79,po.cinfor,3.8 Condición de informalidad,clase2==1
+80,po.cinfor.of,3.8.1. Ocupación formal,clase2==1 & emp_ppal==2
+81,po.cinfor.oi,3.8.2. Ocupación informal,clase2==1 & emp_ppal==1
+82,po.cinfor.oi.si,Sector informal,clase2==1 & tue_ppal==1
+83,po.cinfor.oi.fsi,Fuera de sector informal,clase2==1 & tue_ppal==2 & emp_ppal==1
+84,tsr,4. Trabajadores subordinados y remunerado por:,pos_ocu==1
+85,tsr.sae,4.1. Sector de actividad económica,pos_ocu==1
+86,tsr.sae.pri,4.1.1. Primario,pos_ocu==1 & rama_est1==1
+87,tsr.sae.pri.agric,"Agricultura, ganadería, silvicultura, caza y pesca",pos_ocu==1 & rama_est2==1
+88,tsr.sae.sec,4.1.2. Secundario,pos_ocu==1 & rama_est1==2
+89,tsr.sae.sec.iee,Industria extractiva y de la electricidad,pos_ocu==1 & rama_est2==2
+90,tsr.sae.sec.im,Industria manufacturera,pos_ocu==1 & rama_est2==3
+91,tsr.sae.sec.const,Construcción,pos_ocu==1 & rama_est2==4
+92,tsr.sae.ter,4.1.3. Terciario,pos_ocu==1 & rama_est1==3
+93,tsr.sae.ter.com,Comercio,pos_ocu==1 & rama_est2==5
+94,tsr.sae.ter.rsa,Restaurantes y servicios de alojamiento,pos_ocu==1 & rama_est2==6
+95,tsr.sae.ter.tcca,"Transportes, comunicaciones, correo y almacenamiento",pos_ocu==1 & rama_est2==7
+96,tsr.sae.ter.sfc,"Servicios profesionales, financieros y corporativos",pos_ocu==1 & rama_est2==8
+97,tsr.sae.ter.ssoc,Servicios sociales,pos_ocu==1 & rama_est2==9
+98,tsr.sae.ter.sdiv,Servicios diversos,pos_ocu==1 & rama_est2==10
+99,tsr.sae.ter.gob,Gobierno y organismos internacionales,pos_ocu==1 & rama_est2==11
+100,tsr.sae.ne,4.1.4. No especificado,pos_ocu==1 & rama_est1==4
+101,tsr.niving,4.2. Nivel de ingresos,pos_ocu==1
+102,tsr.niving.h1sm,Hasta un salario mínimo,pos_ocu==1 & ing7c==1
+103,tsr.niving.m1-2sm,Más de 1 hasta 2 salarios mínimos,pos_ocu==1 & ing7c==2
+104,tsr.niving.m2-3sm,Más de 2 hasta 3 salarios mínimos,pos_ocu==1 & ing7c==3
+105,tsr.niving.m3-5sm,Más de 3 hasta 5 salarios mínimos,pos_ocu==1 & ing7c==4
+106,tsr.niving.m5sm,Más de 5 salarios mínimos,pos_ocu==1 & ing7c==5
+107,tsr.niving.ne,No especificado,pos_ocu==1 & ing7c==7
+108,tsr.durjt,4.3. Duración de la jornada de trabajo,pos_ocu==1
+109,tsr.durjt.aus,Ausentes temporales con vínculo laboral,pos_ocu==1 & dur_est==1
+110,tsr.durjt.<15h,Menos de 15 horas,pos_ocu==1 & dur_est==2
+111,tsr.durjt.15-34h,De 15 a 34 horas,pos_ocu==1 & dur_est==3
+112,tsr.durjt.35-48h,De 35 a 48 horas,pos_ocu==1 & dur_est==4
+113,tsr.durjt.48h,Más de 48 horas,pos_ocu==1 & dur_est==5
+114,tsr.durjt.ne,No especificado,pos_ocu==1 & dur_est==6
+115,tsr.acc_salud,4.4. Condición de acceso a las instituciones de salud,pos_ocu==1
+116,tsr.acc_salud.casal,Con acceso,pos_ocu==1 & seg_soc==1
+117,tsr.acc_salud.sasal,Sin acceso,pos_ocu==1 & seg_soc==2
+118,tsr.acc_salud.ne,No especificado,pos_ocu==1 & seg_soc==3
+119,tsr.prest,4.5. Prestaciones laborales (sin considerar el acceso a las instituciones de salud),pos_ocu==1
+120,tsr.prest.cprest,Con prestaciones,pos_ocu==1 & pre_asa==1
+121,tsr.prest.sprest,Sin prestaciones,pos_ocu==1 & pre_asa==2
+122,tsr.prest.ne,No especificado,pos_ocu==1 & pre_asa==3
+123,tsr.dis_ce,4.6. Disponibilidad de contrato escrito,pos_ocu==1
+124,tsr.dis_ce.ce,4.6.1. Con contrato escrito,"pos_ocu==1 & tip_con %in% c(2, 3, 4)"
+125,tsr.dis_ce.ce.temp,Temporal,pos_ocu==1 & tip_con==2
+126,tsr.dis_ce.ce.base,"De base, planta o por tiempo indefinido",pos_ocu==1 & tip_con==3
+127,tsr.dis_ce.ce.ne_tipo,Contrato de tipo no especificado,pos_ocu==1 & tip_con==4
+128,tsr.dis_ce.sce,4.6.2. Sin contrato escrito,pos_ocu==1 & tip_con==5
+129,tsr.dis_ce.ne,4.6.3. No especificado,pos_ocu==1 & tip_con==6
+130,tsr_na,5. Trabajadores subordinados y remunerados no agropecuarios,pos_ocu==1 & ambito1!=1
+131,tsr_na.tue,5.1. Tamaño de la unidad económica,pos_ocu==1 & ambito1!=1
+132,tsr_na.tue.micro,5.1.1. Micronegocios,"pos_ocu==1 & ambito1!=1 & ambito2 %in% c(2, 3)"
+133,tsr_na.tue.micro.sin_est,Sin establecimiento,pos_ocu==1 & ambito1!=1 & ambito2==2
+134,tsr_na.tue.micro.con_est,Con establecimiento,pos_ocu==1 & ambito1!=1 & ambito2==3
+135,tsr_na.tue.peq_est,5.1.2. Pequeños establecimientos,pos_ocu==1 & ambito1!=1 & ambito2==4
+136,tsr_na.tue.med_est,5.1.3. Medianos establecimientos,pos_ocu==1 & ambito1!=1 & ambito2==5
+137,tsr_na.tue.gde_est,5.1.4. Grandes establecimientos,pos_ocu==1 & ambito1!=1 & ambito2==6
+138,tsr_na.tue.gob,5.1.5. Gobierno,pos_ocu==1 & ambito1!=1 & ambito2==7
+139,tsr_na.tue.otros,5.1.6. Otros,pos_ocu==1 & ambito1!=1 & ambito2==8
+140,tsr_na.tue.ne,5.1.7. No especificado,pos_ocu==1 & ambito1!=1 & ambito1==3
+141,psub,6. Población subocupada por:,sub_o==1
+142,psub.con_bt,6.1. Condición de búsqueda de trabajo adicional,sub_o==1
+143,psub.con_bt.bt,Con búsqueda de trabajo adicional,sub_o==1 & busqueda==1
+144,psub.con_bt.sbt,Sin búsqueda de trabajo adicional,sub_o==1 & busqueda==2
+145,psub.nins,6.2. Nivel de instrucción,sub_o==1
+146,psub.nins.pri_inc,Primaria incompleta,sub_o==1 & niv_ins==1
+147,psub.nins.pri_com,Primaria completa,sub_o==1 & niv_ins==2
+148,psub.nins.sec_com,Secundaria completa,sub_o==1 & niv_ins==3
+149,psub.nins.ms_sup,Medio superior y superior,sub_o==1 & niv_ins==4
+150,psub.nins.ne,No especificado,sub_o==1 & niv_ins==5
+151,psub.posoc,6.3. Posición en la ocupación,sub_o==1
+152,psub.posoc.tsr,6.3.1. Trabajadores subordinados y remunerados,sub_o==1 & pos_ocu==1
+153,psub.posoc.tsr.asal,Asalariados,sub_o==1 & remune2c==1
+154,psub.posoc.tsr.pns,Con percepciones no salariales,sub_o==1 & remune2c==2
+155,psub.posoc.emp,6.3.2. Empleadores,sub_o==1 & pos_ocu==2
+156,psub.posoc.tcp,6.3.3. Trabajadores por cuenta propia,sub_o==1 & pos_ocu==3
+157,psub.posoc.tnr,6.3.4. Trabajadores no remunerados,sub_o==1 & pos_ocu==4
+158,psub.posoc.ne,6.3.5. No especificado,sub_o==1 & pos_ocu==5
+159,psub.sae,6.4. Sector de actividad económica,sub_o==1
+160,psub.sae.pri,6.4.1. Primario,sub_o==1 & rama_est1==1
+161,psub.sae.pri.agric,"Agricultura, ganadería, silvicultura, caza y pesca",sub_o==1 & rama_est2==1
+162,psub.sae.sec,6.4.2. Secundario,sub_o==1 & rama_est1==2
+163,psub.sae.sec.iee,Industria extractiva y de la electricidad,sub_o==1 & rama_est2==2
+164,psub.sae.sec.im,Industria manufacturera,sub_o==1 & rama_est2==3
+165,psub.sae.sec.const,Construcción,sub_o==1 & rama_est2==4
+166,psub.sae.ter,6.4.3. Terciario,sub_o==1 & rama_est1==3
+167,psub.sae.ter.com,Comercio,sub_o==1 & rama_est2==5
+168,psub.sae.ter.rsa,Restaurantes y servicios de alojamiento,sub_o==1 & rama_est2==6
+169,psub.sae.ter.tcca,"Transportes, comunicaciones, correo y almacenamiento",sub_o==1 & rama_est2==7
+170,psub.sae.ter.sfc,"Servicios profesionales, financieros y corporativos",sub_o==1 & rama_est2==8
+171,psub.sae.ter.ssoc,Servicios sociales,sub_o==1 & rama_est2==9
+172,psub.sae.ter.sdiv,Servicios diversos,sub_o==1 & rama_est2==10
+173,psub.sae.ter.gob,Gobierno,sub_o==1 & rama_est2==11
+174,psub.sae.ne,6.4.4. No especificado,sub_o==1 & rama_est1==4
+175,pdes,7. Población desocupada,clase2==2
+176,pdes.gedad,7.1. Grupos de edad,clase2==2
+177,pdes.gedad.15-24,De 15 a 24 años,clase2==2 & eda5c==1
+178,pdes.gedad.25-44,De 25 a 44 años,clase2==2 & eda5c==2
+179,pdes.gedad.45-64,De 45 a 64 años,clase2==2 & eda5c==3
+180,pdes.gedad.65+,De 65 años y más,clase2==2 & eda5c==4
+181,pdes.gedad.ne,No especificado,clase2==2 & eda5c==5
+182,pdes.nins,7.2. Nivel de instrucción,clase2==2
+183,pdes.nins.pri_inc,Primaria incompleta,clase2==2 & niv_ins==1
+184,pdes.nins.pri_com,Primaria completa,clase2==2 & niv_ins==2
+185,pdes.nins.sec_com,Secundaria completa,clase2==2 & niv_ins==3
+186,pdes.nins.ms_sup,Medio superior y superior,clase2==2 & niv_ins==4
+187,pdes.nins.ne,No especificado,clase2==2 & niv_ins==5
+188,pdes.ant_lab,7.3. Antecedente laboral,clase2==2
+189,pdes.ant_lab.exp,7.3.1. Con experiencia,clase2==2 & d_ant_lab==1
+190,pdes.ant_lab.exp.perd,Perdió o terminó su empleo,clase2==2 & d_cexp_est==1
+191,pdes.ant_lab.exp.ren,Renunció o dejó su empleo,clase2==2 & d_cexp_est==2
+192,pdes.ant_lab.exp.neg,Dejó o cerró un negocio propio,clase2==2 & d_cexp_est==3
+193,pdes.ant_lab.exp.otro,Otro,clase2==2 & d_cexp_est==4
+194,pdes.ant_lab.sexp,7.3.2. Sin experiencia,clase2==2 & d_ant_lab==2
+195,pdes.dur_desem,7.4. Duración del desempleo,clase2==2
+196,pdes.dur_desem.≤1m,Hasta 1 mes,clase2==2 & dur_des==1
+197,pdes.dur_desem.1-3m,Más de 1 mes hasta 3 meses,clase2==2 & dur_des==2
+198,pdes.dur_desem.3-6m,Más de 3 meses hasta 6 meses,clase2==2 & dur_des==3
+199,pdes.dur_desem.6-12m,Más de 6 meses hasta 1 año,clase2==2 & dur_des==4
+200,pdes.dur_desem.12m,Más de 1 año,clase2==2 & dur_des==5
+201,pdes.dur_desem.ne,No especificado,clase2==2 & dur_des==6
+202,pnea,8. Población no económicamente activa,clase1==2
+203,pnea.disp,8.1. Disponible,clase1==2 & clase2==3
+204,pnea.disp.disp_des,Disponible para trabajar que ha desistido de buscar empleo,clase1==2 & pnea_est==1
+205,pnea.disp.disp_nb,Disponible para trabajar que no busca empleo por considerar que no tiene posibilidades,clase1==2 & pnea_est==2
+206,pnea.ndisp,8.2. No disponible,clase1==2 & clase2==4
+207,pnea.ndisp.ndisp_imp,"Con interés para trabajar, pero bajo un contexto que le impide hacerlo",clase1==2 & pnea_est==3
+208,pnea.ndisp.ndisp_int,Sin interés para trabajar por atender otras obligaciones,clase1==2 & pnea_est==4
+209,pnea.ndisp.ndisp_otr,Con impedimentos físicos para trabajar,clase1==2 & pnea_est==5
+210,pnea.ndisp.ndisp_otro,Otros,clase1==2 & pnea_est==6
+211,pamb,9. Población por ambitos,"r_def == 0 & c_res %in% c(1, 3) & eda >= 15 & eda <= 98"
+212,pamb.masurb,9.1. Áreas más urbanizadas ( Localidades de 100 000 y más habitantes y/o capitales de estado.),t_loc_tri==1 
+213,pamb.menosurb,9.2. Áreas menos urbanizadas( Localidades menores de 100 000 habitantes),"t_loc_tri%in% c(2, 3, 4)"
+214,pamb.menosurb.medio,Urbano medio (Localidades de 15 000 a 99 999 habitantes),t_loc_tri==2
+215,pamb.menosurb.bajo,Urbano bajo (Localidades de 2 500 a 14 999 habitantes),t_loc_tri==3
+216,pamb.menosurb.rural,Rural (Localidades menores de 2 500 habitantes),t_loc_tri==4
+217,extra.pobot,Población Ocupada que ha buscado otro trabajo,tpg_p8a == 1
+218,extra.pasa,Población Asalariada,remune2c == 1
+219,extra.pcco,Población en Condiciones Críticas de Ocupación,"tcco %in% c(1,2,3)"
+220,extra.pona,Población Ocupada No Agropecuaria,clase2==1 & ambito1!=1
+221,extra.poina,Población en Ocupación Informal No Agropecuaria,emp_ppal==1 & ambito1!=1
+222,tasas.par,Tasa de participación,(p15ym.pea / p15ym) / * 100
+223,tasas.des,Tasa de desocupación,(p15ym.pea.des / p15ym.pea) * 100
+224,tasas.todp1,Tasa de ocupación parcial y desocupación 1 (TOPD1),((p15ym.pea.des + po.durjt.<15h) / p15ym.pea) * 100
+225,tasas.tprg,Tasa de presión general (TPRG),((p15ym.pea.des + extra.pobot) / p15ym.pea) * 100
+226,tasas.tasalariado,Tasa de trabajo asalariado,(extra.pasa / p15ym.pea.oc) * 100
+227,tasas.subocupación,Tasa de subocupación,(psub / p15ym.pea.oc) * 100
+228,tasas.tcco,Tasa de condiciones críticas de ocupación (TCCO),(extra.pcco / p15ym.pea.oc) * 100
+229,tasas.tosi1,Tasa de ocupación en el sector informal 1 (TOSI1),(po.cinfor.oi.si / p15ym.pea.oc) * 100
+230,tasas.til1,Tasa de informalidad laboral 1 (TIL1),(po.cinfor.oi / p15ym.pea.oc) * 100
+231,tasas.tosi2,Tasa de ocupación en el sector informal 2 (TOSI2),(po.cinfor.oi.si / extra.pona) * 100
+232,tasas.til2,Tasa de informalidad laboral 2 (TIL2),(extra.poina / extra.pona) * 100

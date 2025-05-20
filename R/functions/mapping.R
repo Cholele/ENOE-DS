@@ -36,33 +36,25 @@ Mapping_Columns <- function(tbl_name, cols) {
 # ---------------------------
 # Función para mapear valores de claves en filas (una columna) con catalogs
 # ---------------------------
-Mapping_Rows <- function(tbl_name, cols) {
-  tbl <- tbls[[tbl_name]]
+Mapping_Rows <- function(df, tbl_name, cols) {
   table_catalog <- catalogs[[tbl_name]]
-  
   # Verificar que el catálogo existe
   if (is.null(table_catalog)) {
     stop(paste("No existe catálogo para la tabla", tbl_name))
   }
-  
-  # Iterar sobre las columnas especificadas
   for (col in cols) {
-    # Obtener el catálogo específico para esta columna
     col_catalog <- table_catalog[[col]]
     
-    # Verificar si existe el catálogo para la columna
     if (!is.null(col_catalog)) {
-      # Crear vector nombrado para el mapeo
       mapping <- setNames(col_catalog$DESCRIP, col_catalog$CVE)
-      
-      # Aplicar el mapeo usando recode de dplyr
-      tbl[[col]] <- dplyr::recode(tbl[[col]], !!!mapping)
+      df[[col]] <- ifelse(is.na(df[[col]]), 
+                          NA, 
+                          dplyr::recode(df[[col]], !!!mapping))
     } else {
-      warning(paste("No se encontró catálogo para la columna", col, "en", tabl_name))
+      warning(paste("No se encontró catálogo para la columna", col, "en", tbl_name))
     }
   }
-  
-  return(tbl)
+  return(df)
 }
 
 
