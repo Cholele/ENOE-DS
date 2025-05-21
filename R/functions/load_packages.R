@@ -40,7 +40,9 @@ cargar_librerias <- function(step = NULL) {
          "main" = cargar_paquetes(c("odbc", "DBI", "dplyr", "readr", "ggplot2")),
          "indicators" = cargar_paquetes(c("rlang")),
          "query_builder" = cargar_paquetes(c("rlang", "dplyr", "purrr", "jsonlite", "gt", "stringr", "dplyr", "tidyr")),
-         "EDA" = cargar_paquetes(c("skimr", "dplyr", "survey", "knitr", "tidyverse", "naniar", "patchwork", "ggplot2", "DescTools")),
+         "EDA" = cargar_paquetes(c("skimr", "dplyr", "survey", "knitr", "tidyverse", "naniar", "patchwork", 
+                                   "ggplot2", "DescTools", "clustMixType", "forcats", "scales")),
+         "Clustering" = cargar_paquetes(c("dplyr", "ggplot2", "factoextra","sf")),
          
          # Si el parametro es desconocido
          { if (!is.null(step)) message("Paso no reconocido. Solo se cargaron paquetes comunes.") }

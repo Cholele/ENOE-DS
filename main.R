@@ -50,7 +50,7 @@ exportToCsv(tbl_indicators_counts)
 
 
 
-rm(list = setdiff(ls(), c("df", "df_pea","indicators")))
+rm(list = setdiff(ls(), c("df", "df_poc")))
 
 #Exportar dataframe --> .csv
 exportToCsv <- function(data){

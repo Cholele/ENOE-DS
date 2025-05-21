@@ -10,8 +10,8 @@ theme_set(theme_minimal())
 # =================================================================
 
 # Resumen de valores faltantes por variable (conteo y porcentaje)
-na_counts <- colSums(is.na(df_pea))
-na_percent <- round(100 * na_counts / nrow(df_pea), 2)
+na_counts <- colSums(is.na(df_poc))
+na_percent <- round(100 * na_counts / nrow(df_poc), 2)
 missing_summary <- data.frame(Variable = names(na_counts), NAs = na_counts, Perc_NA = na_percent)
 missing_summary <- missing_summary %>% arrange(desc(Perc_NA))
 print(missing_summary)  # Imprimir resumen de NAs por variable

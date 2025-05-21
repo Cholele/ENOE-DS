@@ -89,7 +89,7 @@ count_ponderado_grouped <- function(df, path, group_by, trimestre = NULL, peso =
   return(df_resultado)
 }
 
-get_all_indicator_paths(indicators)
+
 # Get counts of all the indicators
 get_all_indicator_paths <- function(indicators, current_path = "") {
   paths <- list()

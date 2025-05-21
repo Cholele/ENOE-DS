@@ -1,0 +1,4 @@
+"Variable","Q1","Q3","IQR","Limite_inferior","Limite_superior","Num_outliers"
+"eda",29,51,22,-4,84,340
+"ingocup",0,9000,9000,-13500,22500,5544
+"hrsocup",31,50,19,2.5,78.5,12932

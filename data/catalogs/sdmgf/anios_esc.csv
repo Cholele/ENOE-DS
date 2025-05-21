@@ -1,27 +1,27 @@
-CVE,DESCRIP
-0,No aplica
-1,Un año de escolaridad
-2,dos años de escolaridad
-3,tres años de escolaridad
-4,cuatro años de escolaridad
-5,cinco años de escolaridad
-6,seis años de escolaridad
-7,siete años de escolaridad
-8,ocho años de escolaridad
-9,nueve años de escolaridad
-10,diez años de escolaridad
-11,once años de escolaridad
-12,doce años de escolaridad
-13,trece años de escolaridad
-14,catorce años de escolaridad
-15,quince años de escolaridad
-16,dieciséis años de escolaridad
-17,diecisiete años de escolaridad
-18,dieciocho años de escolaridad
-19,diecinueve años de escolaridad
-20,veinte años de escolaridad
-21,veintiuno años de escolaridad
-22,veintidós años de escolaridad
-23,veintitrés años de escolaridad
-24,veinticuatro años de escolaridad
-99,No especificada años de escolaridad
+CVE,DESCRIP,,,,,,,,,,,
+0,No aplica,,,,,,,,,,,
+1,Un año de escolaridad,,,,,,,,,,,
+2,dos años de escolaridad,,,,,,,,,,,
+3,tres años de escolaridad,,,,,,,,,,,
+4,cuatro años de escolaridad,,,,,,,,,,,
+5,cinco años de escolaridad,,,,,,,,,,,
+6,seis años de escolaridad,,,,,,,,,,,
+7,siete años de escolaridad,,,,,,,,,,,
+8,ocho años de escolaridad,,,,,,,,,,,
+9,nueve años de escolaridad,,,,,,,,,,0,No aplica
+10,diez años de escolaridad,,,,,,,,,,99,No especificada años de escolaridad
+11,once años de escolaridad,,,,,,,,,,,
+12,doce años de escolaridad,,,,,,,,,,,
+13,trece años de escolaridad,,,,,,,,,,,
+14,catorce años de escolaridad,,,,,,,,,,,
+15,quince años de escolaridad,,,,,,,,,,,
+16,dieciséis años de escolaridad,,,,,,,,,,,
+17,diecisiete años de escolaridad,,,,,,,,,,,
+18,dieciocho años de escolaridad,,,,,,,,,,,
+19,diecinueve años de escolaridad,,,,,,,,,,,
+20,veinte años de escolaridad,,,,,,,,,,,
+21,veintiuno años de escolaridad,,,,,,,,,,,
+22,veintidós años de escolaridad,,,,,,,,,,,
+23,veintitrés años de escolaridad,,,,,,,,,,,
+24,veinticuatro años de escolaridad,,,,,,,,,,,
+99,No especificada años de escolaridad,,,,,,,,,,,
